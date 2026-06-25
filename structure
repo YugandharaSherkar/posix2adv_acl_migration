@@ -1,0 +1,24 @@
+acl_migration/
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── pyproject.toml
+│
+├── aclmigrate/
+│   │
+│   ├── __init__.py
+│   ├── main.py
+│   ├── parser.py
+│   ├── validator.py
+│   ├── translator.py
+│   ├── applier.py
+│   ├── rollback.py
+│   ├── logger.py
+│   ├── report.py
+│   ├── config.py
+│   └── exceptions.py
+│
+├── logs/
+├── reports/
+└── tests/
