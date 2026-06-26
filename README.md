@@ -15,6 +15,6 @@ Features
 
 To run this :
 
-python3 aclmigrate.py \
-    --source /mnt/nfs3/test.txt \
-    --destination /mnt/nfs4/test.txt
+python aclmigrate.py \
+    --source-root /nfs3 \
+    --destination-root /nfs4
